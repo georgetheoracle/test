@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Shizuru&family=Silkscreen&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background:  url(bg-image.jpg) no-repeat center center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.container {
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo-border{
+    border: 2px solid #fdfbfb;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Silkscreen', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: #000;
+}
+
+.login{
+    border: 2px solid #000000;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Silkscreen', sans-serif;
+    color: rgb(5, 5, 5);
+        
+}
+
+
+.login:hover {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background-color: #000;
+    transform: scale(1.2);
+}
+
+.documentation{
+    color: #000;
+    font-family: 'Silkscreen', sans-serif;
+}

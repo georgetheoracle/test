@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Shizuru&family=Silkscreen&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(bg-image.jpg) no-repeat center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+ .container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
+    background-color: #ffffff;
+ }
+
+ h1 {
+     color: #0c0c0c;
+     padding-bottom: 20px;
+    font-family: 'Shizuru', sans-serif;
+    text-transform:uppercase;
+ }
+
+ .twitter-btn {
+     display: inline-block;
+     padding: 10px 20px;
+     background-color: #1a1818;
+     color: #ffffff;
+     text-decoration: none;
+     font-family: 'Silkscreen', sans-serif;
+     border-radius: 15px;
+     font-size: 16px;
+     transition: background-color 0.3s ease;
+ }
+
+ .twitter-btn:hover {
+    transform: scale(1.06);
+}
+
+
+
+.fa-brands{
+    padding-left: 5px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #ffffff;
+}
