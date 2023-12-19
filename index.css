@@ -137,3 +137,8 @@ section#home a{
             background-color: #000;
 } 
 
+@media(max-width: 600px){
+a{
+    font-size: 10px;
+}
+}
