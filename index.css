@@ -122,6 +122,7 @@ section#home a{
     border: 2px solid #fdfbfb;
     padding: 10px;
     border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
     color: rgb(255, 255, 255);
     background-color: #000;
 }
@@ -133,12 +134,26 @@ section#home a{
             border: 2px solid #fdfbfb;
             padding: 10px;
             border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
             color: rgb(255, 255, 255);
             background-color: #000;
-} 
+}
+.login a {
+    text-decoration: none;
+}
 
 @media(max-width: 600px){
-a{
-    font-size: 10px;
-}
+    .container li a {
+            font-size: 10px;
+        }
+    
+        .login a {
+            font-size: 8px;
+            padding: 0;
+        }
+    
+        section#home a {
+            font-size: 8px;
+            padding: 10px;
+        }
 }
