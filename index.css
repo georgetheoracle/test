@@ -116,10 +116,11 @@ section#contact{
 
 section#home a{
     position: fixed;
+    text-decoration: none;
     z-index: 9;
     top: 1.5rem;
-    left: 1.5rem;
-    border: 2px solid #fdfbfb;
+    left: 4.5rem;
+    border: 2px solid #64627d;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
@@ -130,16 +131,20 @@ section#home a{
         position: fixed;
         z-index: 9;
             top: 1.5rem;
-            right: 1.5rem;
-            border: 2px solid #fdfbfb;
+            right: 4rem;
+            border: 2px solid #64627d;
             padding: 10px;
-            border-radius: 5px;
+            border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.555);
-            color: rgb(255, 255, 255);
-            background-color: #000;
+            color: #64627d;
+            background-color: #fdfbfb;
+}
+.login :hover{
+    background-color: #64627d7e;
 }
 .login a {
     text-decoration: none;
+    color: #64627d;
 }
 
 @media(max-width: 600px){
@@ -147,13 +152,17 @@ section#home a{
             font-size: 10px;
         }
     
-        .login a {
-            font-size: 8px;
-            padding: 0;
+        .login{
+                        padding: 10px;
+                            top: 1rem;
+                            right: 1rem;
+                            font-size: 8px;
+                            
         }
-    
         section#home a {
             font-size: 8px;
             padding: 10px;
+            top: 1rem;
+            left: 1rem;
         }
 }
