@@ -87,6 +87,9 @@ section#about{
 
 section#about h1{
     color: #000;
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
 
 section#earn{
@@ -231,8 +234,8 @@ section#home .logo{
     text-align: center;
     padding: 15px 32px;
     position: absolute;
-    top: 8px;
-    left: 16px;
+    top: -20px;
+    
 }
 
 
