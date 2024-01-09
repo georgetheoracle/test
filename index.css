@@ -167,6 +167,7 @@ section#earn h1{
 .homepage-div{
     border: 5px solid #000;
     box-shadow: 0 0 10px rgb(255, 255, 255);
+    border-radius: 10px;
     background-color: #f2f2f2;
     height: 50%;
     width: 70%; 
